@@ -42,9 +42,11 @@ CREATE TABLE playlist_music (
 /* INSERTS DE DADOS */
 
 /* Inserir dados na tabela MUSIC */
+INSERT INTO music (ano_lancamento, album, artista, genero, titulo, album_art_url) VALUES (1996, 'Hotel California', 'Eagles', 'ROCK', 'Hotel California', 'https://abrir.link/ZjOqm');
+
 INSERT INTO music (ano_lancamento, album, artista, genero, titulo, album_art_url) VALUES (1996, 'All Eyez on Me', '2Pac', 'HIP_HOP', 'California Love', 'https://abrir.link/ZjOqm');
  
-INSERT INTO music (ano_lancamento, album, artista, genero, titulo, album_art_url) VALUES (2020, 'Future Nostalgia', 'Dua Lipa', 'POP', 'Dont Start Now', 'https://abrir.link/fltfI');
+INSERT INTO music (ano_lancamento, album, artista, genero, titulo, album_art_url) VALUES (2020, 'Radical Optimism', 'Dua Lipa', 'POP', 'Training Season', 'https://abrir.link/fltfI');
  
 INSERT INTO music (ano_lancamento, album, artista, genero, titulo, album_art_url) VALUES (2019, 'Lover', 'Taylor Swift', 'POP', 'You Need to Calm Down', 'https://abrir.link/MVajI');
  
